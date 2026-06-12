@@ -76,13 +76,13 @@ YOLOv8 模型支持检测、分割、分类、姿态估计和旋转目标检测�
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt` | [检测](https://docs.ultralytics.com/zh/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt` | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt` | [分类](https://docs.ultralytics.com/zh/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt` | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
+| 模型系列                                                           | 示例权重                                                                                  | 任务                                                      | Train | Val | Predict | Export |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------- | ----- | --- | ------- | ------ |
+| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8)      | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt`                          | [检测](https://docs.ultralytics.com/zh/tasks/detect)      | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt`      | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt`      | [分类](https://docs.ultralytics.com/zh/tasks/classify)    | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose)    | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt`      | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 集成
 

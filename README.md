@@ -95,13 +95,13 @@ All model weights download automatically from the latest Ultralytics assets rele
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights | Task | Train | Val | Predict | Export |
-| --- | --- | --- | --- | --- | --- | --- |
-| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt` | [Detection](https://docs.ultralytics.com/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt` | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt` | [Classification](https://docs.ultralytics.com/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
-| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt` | [Oriented Detection](https://docs.ultralytics.com/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
+| Model Family                                                       | Example Weights                                                                           | Task                                                                | Train | Val | Predict | Export |
+| ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ----- | --- | ------- | ------ |
+| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8)      | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt`                          | [Detection](https://docs.ultralytics.com/tasks/detect)              | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt`      | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt`      | [Classification](https://docs.ultralytics.com/tasks/classify)       | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose)          | ✅    | ✅  | ✅      | ✅     |
+| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8)  | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt`      | [Oriented Detection](https://docs.ultralytics.com/tasks/obb)        | ✅    | ✅  | ✅      | ✅     |
 
 ## 🧩 Integrations
 
