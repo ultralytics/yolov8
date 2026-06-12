@@ -140,10 +140,10 @@ Ultralytics offers two licensing options to suit different needs:
 
 ## 📞 Contact
 
-- YOLOv8 documentation: https://docs.ultralytics.com/models/yolov8
-- Ultralytics package: https://pypi.org/project/ultralytics/
-- Canonical source code: https://github.com/ultralytics/ultralytics
-- Support and issues: https://github.com/ultralytics/ultralytics/issues/new/choose
+- [YOLOv8 documentation](https://docs.ultralytics.com/models/yolov8)
+- [Ultralytics Python package](https://pypi.org/project/ultralytics/)
+- [Canonical source code](https://github.com/ultralytics/ultralytics)
+- [Support and issues](https://github.com/ultralytics/ultralytics/issues/new/choose)
 
 For questions, discussions, and community support, join our active communities on
 [Discord](https://discord.com/invite/ultralytics), [Reddit](https://www.reddit.com/r/ultralytics/), and the
