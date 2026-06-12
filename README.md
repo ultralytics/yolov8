@@ -20,7 +20,7 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLOv8](https://docs.ultralytics.com/models/yolov8/) is available
+[Ultralytics](https://www.ultralytics.com/) [YOLOv8](https://docs.ultralytics.com/models/yolov8) is available
 through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
 detection, instance segmentation, image classification, pose estimation, and tracking in a fast, accurate, and easy to
 use Python and CLI workflow.
@@ -47,7 +47,7 @@ downloads, issues, and pull requests are maintained in [ultralytics/ultralytics]
 ## 📄 Documentation
 
 See below for quickstart installation and YOLOv8 usage examples. For comprehensive guidance on training, validation,
-prediction, and deployment, refer to the full [Ultralytics Docs](https://docs.ultralytics.com/).
+prediction, and deployment, refer to the full [Ultralytics Docs](https://docs.ultralytics.com).
 
 <details open>
 <summary>Install</summary>
@@ -95,20 +95,23 @@ All model weights download automatically from the latest Ultralytics assets rele
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| Model Family | Example Weights                                                                           | Task                  | Train | Val | Predict | Export |
-| ------------ | ----------------------------------------------------------------------------------------- | --------------------- | ----- | --- | ------- | ------ |
-| YOLOv8       | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt`                          | Detection             | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-seg   | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt`      | Instance Segmentation | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-cls   | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt`      | Classification        | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-pose  | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | Pose Estimation       | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-obb   | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt`      | Oriented Detection    | ✅    | ✅  | ✅      | ✅     |
+| Model Family | Example Weights | Task | Train | Val | Predict | Export |
+| --- | --- | --- | --- | --- | --- | --- |
+| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt` | [Detection](https://docs.ultralytics.com/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt` | [Instance Segmentation](https://docs.ultralytics.com/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt` | [Classification](https://docs.ultralytics.com/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [Pose Estimation](https://docs.ultralytics.com/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt` | [Oriented Detection](https://docs.ultralytics.com/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
 
 ## 🧩 Integrations
 
-Ultralytics integrations with leading AI platforms extend dataset labeling, training, visualization, deployment, and
-model management workflows. Explore integrations with [Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases),
-[Comet ML](https://docs.ultralytics.com/integrations/comet), [Roboflow](https://docs.ultralytics.com/integrations/roboflow),
-and [Intel OpenVINO](https://docs.ultralytics.com/integrations/openvino).
+Ultralytics integrations extend dataset labeling, training, visualization, deployment, and model management workflows.
+Explore [Ultralytics Platform](https://platform.ultralytics.com) and the
+[Ultralytics Integrations docs](https://docs.ultralytics.com/integrations) to connect YOLOv8 with your AI stack,
+including popular export formats like [TensorRT](https://docs.ultralytics.com/integrations/tensorrt),
+[ONNX](https://docs.ultralytics.com/integrations/onnx),
+[CoreML](https://docs.ultralytics.com/integrations/coreml), and
+[TFLite](https://docs.ultralytics.com/integrations/tflite).
 
 <a href="https://platform.ultralytics.com" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -132,7 +135,7 @@ Ultralytics offers two licensing options to suit different needs:
 
 ## 📞 Contact
 
-- YOLOv8 documentation: https://docs.ultralytics.com/models/yolov8/
+- YOLOv8 documentation: https://docs.ultralytics.com/models/yolov8
 - Ultralytics package: https://pypi.org/project/ultralytics/
 - Canonical source code: https://github.com/ultralytics/ultralytics
 - Support and issues: https://github.com/ultralytics/ultralytics/issues/new/choose

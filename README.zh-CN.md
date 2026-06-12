@@ -20,7 +20,7 @@
 </div>
 <br>
 
-[Ultralytics](https://www.ultralytics.com/) [YOLOv8](https://docs.ultralytics.com/zh/models/yolov8/) 可通过官方
+[Ultralytics](https://www.ultralytics.com/) [YOLOv8](https://docs.ultralytics.com/zh/models/yolov8) 可通过官方
 [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) 包使用，支持目标检测、实例分割、图像分类、姿态估计和跟踪，并提供快速、准确、易用的 Python 与 CLI 工作流。
 
 本仓库是 YOLOv8 的轻量级发现入口。官方实现、软件包发布、模型下载、Issues 和 Pull Requests 均在
@@ -29,7 +29,7 @@
 ## 📄 文档
 
 请参阅下文了解快速安装和 YOLOv8 使用示例。有关训练、验证、预测和部署的完整指南，请参阅
-[Ultralytics 文档](https://docs.ultralytics.com/zh/)。
+[Ultralytics 文档](https://docs.ultralytics.com/zh)。
 
 <details open>
 <summary>安装</summary>
@@ -76,20 +76,22 @@ YOLOv8 模型支持检测、分割、分类、姿态估计和旋转目标检测�
     <img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif" alt="Ultralytics YOLO supported tasks">
 </a>
 
-| 模型系列    | 示例权重                                                                                  | 任务         | Train | Val | Predict | Export |
-| ----------- | ----------------------------------------------------------------------------------------- | ------------ | ----- | --- | ------- | ------ |
-| YOLOv8      | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt`                          | 检测         | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-seg  | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt`      | 实例分割     | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-cls  | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt`      | 分类         | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-pose | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | 姿态估计     | ✅    | ✅  | ✅      | ✅     |
-| YOLOv8-obb  | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt`      | 旋转目标检测 | ✅    | ✅  | ✅      | ✅     |
+| 模型系列 | 示例权重 | 任务 | Train | Val | Predict | Export |
+| --- | --- | --- | --- | --- | --- | --- |
+| [YOLOv8](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n.pt` `yolov8s.pt` `yolov8m.pt` `yolov8l.pt` `yolov8x.pt` | [检测](https://docs.ultralytics.com/zh/tasks/detect) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-seg](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-seg.pt` `yolov8s-seg.pt` `yolov8m-seg.pt` `yolov8l-seg.pt` `yolov8x-seg.pt` | [实例分割](https://docs.ultralytics.com/zh/tasks/segment) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-cls](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-cls.pt` `yolov8s-cls.pt` `yolov8m-cls.pt` `yolov8l-cls.pt` `yolov8x-cls.pt` | [分类](https://docs.ultralytics.com/zh/tasks/classify) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-pose](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-pose.pt` `yolov8s-pose.pt` `yolov8m-pose.pt` `yolov8l-pose.pt` `yolov8x-pose.pt` | [姿态估计](https://docs.ultralytics.com/zh/tasks/pose) | ✅ | ✅ | ✅ | ✅ |
+| [YOLOv8-obb](https://platform.ultralytics.com/ultralytics/yolov8) | `yolov8n-obb.pt` `yolov8s-obb.pt` `yolov8m-obb.pt` `yolov8l-obb.pt` `yolov8x-obb.pt` | [旋转目标检测](https://docs.ultralytics.com/zh/tasks/obb) | ✅ | ✅ | ✅ | ✅ |
 
 ## 🧩 集成
 
-Ultralytics 与领先 AI 平台的集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解
-[Weights & Biases](https://docs.ultralytics.com/integrations/weights-biases)、[Comet ML](https://docs.ultralytics.com/integrations/comet)、
-[Roboflow](https://docs.ultralytics.com/integrations/roboflow) 和 [Intel OpenVINO](https://docs.ultralytics.com/integrations/openvino)
-等集成。
+Ultralytics 集成扩展了数据集标注、训练、可视化、部署和模型管理工作流。了解
+[Ultralytics Platform](https://platform.ultralytics.com) 和
+[Ultralytics 集成文档](https://docs.ultralytics.com/integrations)，将 YOLOv8 连接到您的 AI 工作流，包括常用导出格式
+[TensorRT](https://docs.ultralytics.com/integrations/tensorrt)、[ONNX](https://docs.ultralytics.com/integrations/onnx)、
+[CoreML](https://docs.ultralytics.com/integrations/coreml) 和
+[TFLite](https://docs.ultralytics.com/integrations/tflite)。
 
 <a href="https://platform.ultralytics.com" target="_blank">
     <img width="100%" src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-integrations.png" alt="Ultralytics active learning integrations">
@@ -111,7 +113,7 @@ Ultralytics 提供两种许可选项以满足不同需求：
 
 ## 📞 联系方式
 
-- YOLOv8 文档：https://docs.ultralytics.com/zh/models/yolov8/
+- YOLOv8 文档：https://docs.ultralytics.com/zh/models/yolov8
 - Ultralytics 包：https://pypi.org/project/ultralytics/
 - 官方源代码：https://github.com/ultralytics/ultralytics
 - 支持与 Issues：https://github.com/ultralytics/ultralytics/issues/new/choose
