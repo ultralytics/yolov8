@@ -61,8 +61,13 @@ yolo predict model=yolov8n.pt source="https://ultralytics.com/images/bus.jpg"
 ```python
 from ultralytics import YOLO
 
+# 加载预训练的 YOLOv8n 模型
 model = YOLO("yolov8n.pt")
+
+# 对示例图像运行推理
 results = model("https://ultralytics.com/images/bus.jpg")
+
+# 显示带标注的结果
 results[0].show()
 ```
 
