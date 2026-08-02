@@ -22,8 +22,8 @@
 
 [Ultralytics](https://www.ultralytics.com/) [YOLOv8](https://docs.ultralytics.com/models/yolov8) is available
 through the official [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) package. It supports object
-detection, instance segmentation, image classification, pose estimation, and tracking in a fast, accurate, and easy to
-use Python and CLI workflow.
+detection, instance segmentation, image classification, pose estimation, oriented object detection, and tracking in a
+fast, accurate, and easy to use Python and CLI workflow.
 
 This repository is a lightweight discovery page for YOLOv8. The canonical implementation, package releases, model
 downloads, issues, and pull requests are maintained in [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics).
